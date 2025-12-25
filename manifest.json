@@ -1,5 +1,5 @@
 {
-    "name" : "uniapp",
+    "name" : "mine-clearance",
     "appid" : "__UNI__A5EE412",
     "description" : "uni-app 框架示例，一套代码，同时发行到iOS、Android、H5、小程序等多个平台，请使用手机扫码快速体验 uni-app 的强大功能",
     "versionName" : "1.0.0",
@@ -117,7 +117,7 @@
         "template" : "template.h5.html",
         "router" : {
             "mode" : "history",
-            "base" : "/uniapp2/"
+            "base" : "/mine-clearance/"
         },
         "sdkConfigs" : {
             "maps" : {
@@ -132,7 +132,7 @@
         "uniStatistics" : {
             "enable" : true
         },
-        "title" : "uniapp2"
+        "title" : "mine-clearance"
     },
     "vueVersion" : "2",
     "mp-kuaishou" : {

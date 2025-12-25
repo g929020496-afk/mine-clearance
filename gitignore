@@ -6,7 +6,6 @@ cache
 .cache
 .pnpm-store
 launch.json
-unpackage
 
 # Editor directories and files
 .idea
