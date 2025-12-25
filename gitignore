@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+/dist
+.history
+cache
+.cache
+.pnpm-store
+launch.json
+unpackage
+
+# Editor directories and files
+.idea
+.vscode

@@ -1,0 +1,98 @@
+{
+	"pages": [
+		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "内置组件",
+				"app-plus": {
+					"bounce": "vertical",
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "\ue534",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "22px",
+								"color": "#FFFFFF"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/API/API",
+			"style": {
+				"navigationBarTitleText": "接口",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "\ue534",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "22px",
+								"color": "#FFFFFF"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/extUI/extUI",
+			"style": {
+				"navigationBarTitleText": "扩展组件",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "\ue534",
+								"fontSrc": "/static/uni.ttf",
+								"fontSize": "22px",
+								"color": "#FFFFFF"
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"subPackages": [],
+	"globalStyle": {
+		"pageOrientation": "portrait",
+		"navigationBarTitleText": "Hello uniapp",
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"backgroundColorTop": "#F4F5F6",
+		"backgroundColorBottom": "#F4F5F6",
+		"mp-360": {
+			"navigationStyle": "custom"
+		},
+		"h5": {
+			"maxWidth": 1190,
+			"navigationBarTextStyle": "black",
+			"navigationBarBackgroundColor": "#F1F1F1"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [
+			{
+				"pagePath": "pages/tabBar/API/API",
+				"iconPath": "static/api.png",
+				"selectedIconPath": "static/apiHL.png",
+				"text": "接口"
+			},
+			{
+				"pagePath": "pages/tabBar/extUI/extUI",
+				"iconPath": "static/extui.png",
+				"selectedIconPath": "static/extuiHL.png",
+				"text": "扩展组件"
+			}
+		]
+	}
+}
